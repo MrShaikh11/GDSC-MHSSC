@@ -8,7 +8,7 @@ import Socials from './Socials';
 const Team = () => {
   const rowRef = useRef(null);
   const [isMoved, setIsMoved] = useState(false);
-  const handleClick = (direction) => {
+  const handleClick = direction => {
     setIsMoved(true);
     if (rowRef.current) {
       const { scrollLeft, clientWidth } = rowRef.current;
@@ -42,7 +42,7 @@ const Team = () => {
           ref={rowRef}
         >
           <div className=" snap-start scroll-px-8 max-w-[8rem]  sm:max-w-[18rem]  md:max-w-sm lg:max-w-md flex flex-col space-y-2 sm:space-y-3 md:space-y-4 rounded-lg bg-[#cce8ff] py-4 px-4 md:py-4 md:px-6 items-center mx-auto ">
-            <h4 className="text-xs md:text-sm lg:text-md font-medium">Hafsa Shaikh</h4>
+            <h4 className="text-xs md:text-sm lg:text-md font-medium">Sohail Shaikh</h4>
             <div className="container object-cover ">
               <img
                 src={MemImage}
@@ -65,7 +65,7 @@ const Team = () => {
             </div>
           </div>
           <div className=" snap-start scroll-px-8 max-w-[8rem]  sm:max-w-[18rem]  md:max-w-sm lg:max-w-md flex flex-col space-y-2 sm:space-y-3 md:space-y-4 rounded-lg bg-[#cce8ff] py-4 px-4 md:py-4 md:px-6 items-center mx-auto ">
-            <h4 className="text-xs md:text-sm lg:text-md font-medium">Ayan Shaikh</h4>
+            <h4 className="text-xs md:text-sm lg:text-md font-medium">BURHANNUDDIN</h4>
             <div className="container object-cover ">
               <img
                 src={MemImage}
@@ -73,7 +73,7 @@ const Team = () => {
                 className="rounded-full border-4  w-16 mx-auto sm:w-28 md:w-32 lg:max-w-full border-t-red border-b-blue border-l-green border-r-yellow"
               />
             </div>
-            <p className="font-regular text-[0.55rem] sm:text-xxs md:text-sm lg:text-md">Co-Lead</p>
+            <p className="font-regular text-[0.55rem] sm:text-xxs md:text-sm lg:text-md">AIML Lead</p>
             <div className="flex space-x-4 md:space-x-6">
               <a href="http://linkedin.com/in/ayansk11/" target="_blank" rel="noopener noreferrer">
                 <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue " />
@@ -88,7 +88,7 @@ const Team = () => {
             </div>
           </div>
           <div className=" snap-start scroll-px-8 max-w-[8rem]  sm:max-w-[18rem]  md:max-w-sm lg:max-w-md flex flex-col space-y-2 sm:space-y-3 md:space-y-4 rounded-lg bg-[#cce8ff] py-4 px-4 md:py-4 md:px-6 items-center mx-auto ">
-            <h4 className="text-xs md:text-sm lg:text-md font-medium">Zaid Mujahid</h4>
+            <h4 className="text-xs md:text-sm lg:text-md font-medium">Mohammed Mohsin</h4>
             <div className="container object-cover ">
               <img
                 src={MemImage}
@@ -97,7 +97,7 @@ const Team = () => {
               />
             </div>
             <p className="font-regular text-[0.55rem] sm:text-xxs md:text-sm lg:text-md">
-              Web Lead
+              Android Lead
             </p>
             <div className="flex space-x-4 md:space-x-6">
               <a
@@ -121,7 +121,7 @@ const Team = () => {
             </div>
           </div>
           <div className=" snap-start scroll-px-8 max-w-[8rem]  sm:max-w-[18rem]  md:max-w-sm lg:max-w-md flex flex-col space-y-2 sm:space-y-3 md:space-y-4 rounded-lg bg-[#cce8ff] py-4 px-4 md:py-4 md:px-6 items-center mx-auto ">
-            <h4 className="text-xs md:text-sm lg:text-md font-medium">Yasier Ansari</h4>
+            <h4 className="text-xs md:text-sm lg:text-md font-medium">Anurag Pandey</h4>
             <div className="container object-cover ">
               <img
                 src={MemImage}
@@ -130,7 +130,7 @@ const Team = () => {
               />
             </div>
             <p className="font-regular text-[0.55rem] sm:text-xxs md:text-sm lg:text-md">
-              Web Co-Lead
+              Android Lead
             </p>
             <div className="flex space-x-4 md:space-x-6">
               <a
@@ -154,7 +154,7 @@ const Team = () => {
             </div>
           </div>
           <div className=" snap-start scroll-px-8 max-w-[8rem]  sm:max-w-[18rem]  md:max-w-sm lg:max-w-md flex flex-col space-y-2 sm:space-y-3 md:space-y-4 rounded-lg bg-[#cce8ff] py-4 px-4 md:py-4 md:px-6 items-center mx-auto ">
-            <h4 className="text-xs md:text-sm lg:text-md font-medium">Zafar Shaikh</h4>
+            <h4 className="text-xs md:text-sm lg:text-md font-medium">Danish Shaikh</h4>
             <div className="container object-cover ">
               <img
                 src={MemImage}
@@ -163,7 +163,7 @@ const Team = () => {
               />
             </div>
             <p className="font-regular text-[0.55rem] sm:text-xxs md:text-sm lg:text-md">
-              Android Lead
+              Cloud Lead
             </p>
             <div className="flex space-x-4 md:space-x-6">
               <a
@@ -187,7 +187,7 @@ const Team = () => {
             </div>
           </div>
           <div className=" snap-start scroll-px-8 max-w-[8rem]  sm:max-w-[18rem]  md:max-w-sm lg:max-w-md flex flex-col space-y-2 sm:space-y-3 md:space-y-4 rounded-lg bg-[#cce8ff] py-4 px-4 md:py-4 md:px-6 items-center mx-auto ">
-            <h4 className="text-xs md:text-sm lg:text-md font-medium">Nabeel Mirza</h4>
+            <h4 className="text-xs md:text-sm lg:text-md font-medium">Ansari Aqeeb</h4>
             <div className="container object-cover ">
               <img
                 src={MemImage}
@@ -196,7 +196,7 @@ const Team = () => {
               />
             </div>
             <p className="font-regular text-[0.55rem] sm:text-xxs md:text-sm lg:text-md">
-              Android Co-Lead
+              Cloud Lead
             </p>
             <div className="flex space-x-4 md:space-x-6">
               <a href="http://" target="_blank" rel="noopener noreferrer">
@@ -212,7 +212,7 @@ const Team = () => {
             </div>
           </div>
           <div className=" snap-start scroll-px-8 max-w-[8rem]  sm:max-w-[18rem]  md:max-w-sm lg:max-w-md flex flex-col space-y-2 sm:space-y-3 md:space-y-4 rounded-lg bg-[#cce8ff] py-4 px-4 md:py-4 md:px-6 items-center mx-auto ">
-            <h4 className="text-xs md:text-sm lg:text-md font-medium">Arshad Shaikh</h4>
+            <h4 className="text-xs md:text-sm lg:text-md font-medium">Abdullah Shaikh</h4>
             <div className="container object-cover ">
               <img
                 src={MemImage}
@@ -221,7 +221,7 @@ const Team = () => {
               />
             </div>
             <p className="font-regular text-[0.55rem] sm:text-xxs md:text-sm lg:text-md">
-              AI-ML Lead
+              Web Lead
             </p>
             <div className="flex space-x-4 md:space-x-6">
               <a
@@ -245,7 +245,7 @@ const Team = () => {
             </div>
           </div>
           <div className=" snap-start scroll-px-8 max-w-[8rem]  sm:max-w-[18rem]  md:max-w-sm lg:max-w-md flex flex-col space-y-2 sm:space-y-3 md:space-y-4 rounded-lg bg-[#cce8ff] py-4 px-4 md:py-4 md:px-6 items-center mx-auto ">
-            <h4 className="text-[10px] md:text-sm lg:text-md font-medium">Abdullah Bharde</h4>
+            <h4 className="text-[10px] md:text-sm lg:text-md font-medium">Mohammed Maaz</h4>
             <div className="container object-cover ">
               <img
                 src={MemImage}
@@ -254,7 +254,7 @@ const Team = () => {
               />
             </div>
             <p className="font-regular text-[0.55rem] sm:text-xxs md:text-sm lg:text-md">
-              AI-ML Co-Lead
+              Web Lead
             </p>
             <div className="flex space-x-4 md:space-x-6">
               <a
@@ -278,7 +278,7 @@ const Team = () => {
             </div>
           </div>
           <div className=" snap-start scroll-px-8 max-w-[8rem]  sm:max-w-[18rem]  md:max-w-sm lg:max-w-md flex flex-col space-y-2 sm:space-y-3 md:space-y-4 rounded-lg bg-[#cce8ff] py-4 px-4 md:py-4 md:px-6 items-center mx-auto ">
-            <h4 className="text-[10px] md:text-sm lg:text-md font-medium">Maryam Ansari</h4>
+            <h4 className="text-[10px] md:text-sm lg:text-md font-medium">MD Anas</h4>
             <div className="container object-cover ">
               <img
                 src={MemImage}
@@ -286,9 +286,7 @@ const Team = () => {
                 className="rounded-full border-4  w-16 mx-auto sm:w-28 md:w-32 lg:max-w-full border-t-red border-b-blue border-l-green border-r-yellow"
               />
             </div>
-            <p className="font-regular text-[0.55rem] sm:text-xxs md:text-sm lg:text-md">
-              DS Lead
-            </p>
+            <p className="font-regular text-[0.55rem] sm:text-xxs md:text-sm lg:text-md">AIML Lead</p>
             <div className="flex space-x-4 md:space-x-6">
               <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />
               <FiGithub className="  w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-black " />
@@ -296,7 +294,7 @@ const Team = () => {
             </div>
           </div>
           <div className=" snap-start scroll-px-8 max-w-[8rem]  sm:max-w-[18rem]  md:max-w-sm lg:max-w-md flex flex-col space-y-2 sm:space-y-3 md:space-y-4 rounded-lg bg-[#cce8ff] py-4 px-4 md:py-4 md:px-6 items-center mx-auto ">
-            <h4 className="text-[10px] md:text-sm lg:text-md font-medium">Renita Fernandes</h4>
+            <h4 className="text-[10px] md:text-sm lg:text-md font-medium">Aftab Shaikh</h4>
             <div className="container object-cover ">
               <img
                 src={MemImage}
@@ -305,7 +303,7 @@ const Team = () => {
               />
             </div>
             <p className="font-regular text-[0.5rem] sm:text-[0.56rem] md:text-[0.84rem] lg:text-[0.85rem]">
-              DS Co-lead
+              Creative Lead
             </p>
             <div className="flex space-x-4 md:space-x-6 -py-4">
               <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />
@@ -314,7 +312,7 @@ const Team = () => {
             </div>
           </div>
           <div className=" snap-start scroll-px-8 max-w-[8rem]  sm:max-w-[18rem]  md:max-w-sm lg:max-w-md flex flex-col space-y-2 sm:space-y-3 md:space-y-4 rounded-lg bg-[#cce8ff] py-4 px-4 md:py-4 md:px-6 items-center mx-auto ">
-            <h4 className="text-xs md:text-sm lg:text-md font-medium">Sania Shaikh</h4>
+            <h4 className="text-xs md:text-sm lg:text-md font-medium">Ayesha Kazi</h4>
             <div className="container object-cover ">
               <img
                 src={MemImage}
@@ -347,7 +345,7 @@ const Team = () => {
             </div>
           </div>
           <div className=" snap-start scroll-px-8 max-w-[8rem]  sm:max-w-[18rem]  md:max-w-sm lg:max-w-md flex flex-col space-y-2 sm:space-y-3 md:space-y-4 rounded-lg bg-[#cce8ff] py-4 px-4 md:py-4 md:px-6 items-center mx-auto ">
-            <h4 className="text-[10px] md:text-sm lg:text-md font-medium">Hammad Momin</h4>
+            <h4 className="text-[10px] md:text-sm lg:text-md font-medium">Sana Khan</h4>
             <div className="container object-cover ">
               <img
                 src={MemImage}
@@ -356,7 +354,7 @@ const Team = () => {
               />
             </div>
             <p className="font-regular text-[0.55rem] sm:text-xxs md:text-sm lg:text-md">
-              Creative Co-Lead
+              Creative Lead
             </p>
             <div className="flex space-x-4 md:space-x-6">
               <a
@@ -380,7 +378,7 @@ const Team = () => {
             </div>
           </div>
           <div className=" snap-start scroll-px-8 max-w-[8rem]  sm:max-w-[18rem]  md:max-w-sm lg:max-w-md flex flex-col space-y-2 sm:space-y-3 md:space-y-4 rounded-lg bg-[#cce8ff] py-4 px-4 md:py-4 md:px-6 items-center mx-auto ">
-            <h4 className="text-[10px] md:text-sm lg:text-md font-medium">Daniya Mirkar</h4>
+            <h4 className="text-[10px] md:text-sm lg:text-md font-medium">Naser Shaikh</h4>
             <div className="container object-cover ">
               <img
                 src={MemImage}
@@ -389,7 +387,7 @@ const Team = () => {
               />
             </div>
             <p className="font-regular text-[0.55rem] sm:text-xxs md:text-sm lg:text-md">
-              Creative Co-Lead
+              Creative Lead
             </p>
             <div className="flex space-x-4 md:space-x-6">
               <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />
@@ -398,7 +396,7 @@ const Team = () => {
             </div>
           </div>
           <div className=" snap-start scroll-px-8 max-w-[8rem]  sm:max-w-[18rem]  md:max-w-sm lg:max-w-md flex flex-col space-y-2 sm:space-y-3 md:space-y-4 rounded-lg bg-[#cce8ff] py-4 px-4 md:py-4 md:px-6 items-center mx-auto ">
-            <h4 className="text-[10px] md:text-sm lg:text-md font-medium">Rahul Shinde</h4>
+            <h4 className="text-[10px] md:text-sm lg:text-md font-medium">Ruchika Bhagat</h4>
             <div className="container object-cover ">
               <img
                 src={MemImage}
@@ -407,7 +405,61 @@ const Team = () => {
               />
             </div>
             <p className="font-regular text-[0.55rem] sm:text-xxs md:text-sm lg:text-md">
-              Creative Co-Lead
+              Marketing Lead
+            </p>
+            <div className="flex space-x-4 md:space-x-6">
+              <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />
+              <FiGithub className="  w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-black " />
+              <AiOutlineMail className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 px-1 py-1 rounded-md text-black hover:bg-white hover:text-red  " />
+            </div>
+          </div>
+          <div className=" snap-start scroll-px-8 max-w-[8rem]  sm:max-w-[18rem]  md:max-w-sm lg:max-w-md flex flex-col space-y-2 sm:space-y-3 md:space-y-4 rounded-lg bg-[#cce8ff] py-4 px-4 md:py-4 md:px-6 items-center mx-auto ">
+            <h4 className="text-[10px] md:text-sm lg:text-md font-medium">Sankalp Jagdale</h4>
+            <div className="container object-cover ">
+              <img
+                src={MemImage}
+                alt="rahul shinde"
+                className="rounded-full border-4  w-16 mx-auto sm:w-28 md:w-32 lg:max-w-full border-t-red border-b-blue border-l-green border-r-yellow"
+              />
+            </div>
+            <p className="font-regular text-[0.55rem] sm:text-xxs md:text-sm lg:text-md">
+              Marketing Lead
+            </p>
+            <div className="flex space-x-4 md:space-x-6">
+              <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />
+              <FiGithub className="  w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-black " />
+              <AiOutlineMail className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 px-1 py-1 rounded-md text-black hover:bg-white hover:text-red  " />
+            </div>
+          </div>
+          <div className=" snap-start scroll-px-8 max-w-[8rem]  sm:max-w-[18rem]  md:max-w-sm lg:max-w-md flex flex-col space-y-2 sm:space-y-3 md:space-y-4 rounded-lg bg-[#cce8ff] py-4 px-4 md:py-4 md:px-6 items-center mx-auto ">
+            <h4 className="text-[10px] md:text-sm lg:text-md font-medium">Abdullah</h4>
+            <div className="container object-cover ">
+              <img
+                src={MemImage}
+                alt="rahul shinde"
+                className="rounded-full border-4  w-16 mx-auto sm:w-28 md:w-32 lg:max-w-full border-t-red border-b-blue border-l-green border-r-yellow"
+              />
+            </div>
+            <p className="font-regular text-[0.55rem] sm:text-xxs md:text-sm lg:text-md">
+              Marketing Lead
+            </p>
+            <div className="flex space-x-4 md:space-x-6">
+              <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />
+              <FiGithub className="  w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-black " />
+              <AiOutlineMail className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 px-1 py-1 rounded-md text-black hover:bg-white hover:text-red  " />
+            </div>
+          </div>
+          <div className=" snap-start scroll-px-8 max-w-[8rem]  sm:max-w-[18rem]  md:max-w-sm lg:max-w-md flex flex-col space-y-2 sm:space-y-3 md:space-y-4 rounded-lg bg-[#cce8ff] py-4 px-4 md:py-4 md:px-6 items-center mx-auto ">
+            <h4 className="text-[10px] md:text-sm lg:text-md font-medium">Farheen Khan</h4>
+            <div className="container object-cover ">
+              <img
+                src={MemImage}
+                alt="rahul shinde"
+                className="rounded-full border-4  w-16 mx-auto sm:w-28 md:w-32 lg:max-w-full border-t-red border-b-blue border-l-green border-r-yellow"
+              />
+            </div>
+            <p className="font-regular text-[0.55rem] sm:text-xxs md:text-sm lg:text-md">
+              Marketing Lead
             </p>
             <div className="flex space-x-4 md:space-x-6">
               <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-md px-1 py-1 text-black hover:bg-white hover:text-dark-blue  " />
