@@ -13,7 +13,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
     "react-lazy-load": "^4.0.1",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "typewriter-effect": "^2.19.0",
     "web-vitals": "^2.1.4"
   },
@@ -47,5 +47,9 @@
     "autoprefixer": "^10.4.8",
     "postcss": "^8.4.16",
     "tailwindcss": "^3.1.8"
-  }
+  },
+  "description": "<p align=\"center\">\r   <a href=\"https://gdsc-mhssce.github.io/GDSC-MHSSCE/\">\r     <img alt=\"GDSC MHSSCE\" src=\"src/assets/code-bracket.png\" width=\"100\" />\r   </a>\r </p>\r <h1 align=\"center\">\r   GDSC - MHSSCE \r </h1>",
+  "main": "postcss.config.js",
+  "author": "",
+  "license": "ISC"
 }

@@ -7,7 +7,7 @@ import Socials from './Socials';
 
 const Team = () => {
   const rowRef = useRef(null);
-  const [isMoved, setIsMoved] = useState(false);
+  const [setIsMoved] = useState(false);
   const handleClick = direction => {
     setIsMoved(true);
     if (rowRef.current) {
